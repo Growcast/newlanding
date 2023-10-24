@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+/*=======================================================*/
+
+@font-face {
+  font-family: 'Aeonik-Regular';
+  src: local('Aeonik-Regular'),
+       url("./fonts/Aeonik-Regular.otf") format("otf")
+}
+
+body {
+  font-family: Aeonik-Regular
+}
+
+
+.header {
+  background-color: #212D2B;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  padding: 1rem;
+}
+.logo img {
+  width: 200px;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+.contact p {
+  margin-right: 10px;
+}
+
+
+/*=======================================================*/
+
+main {
+  background: rgb(232,201,168);
+  background: linear-gradient(350deg, rgba(232,201,168,1) 0%, rgba(122,78,45,1) 25%, rgba(33,45,43,1) 61%); 
+  /* height: 600px; */
+}
+main h1 {
+  color: #ffffff;
+  margin: 0 0 0 0;
+  padding: 40px 0 0 0;
+  text-align: center;
+  font-size: 3.5em;
+}
+
+.growContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
