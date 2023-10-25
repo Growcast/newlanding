@@ -22,8 +22,8 @@ export default function MainTitle() {
     <div>
         
         {/* TRAIL */}
-        {trails.map(props => (
-        <animated.div style={props}>
+        {trails.map((props, index) => (
+        <animated.div style={props} key={index}>
             {/* <h1>Growcast</h1> */}
             <h1>La evolución tecnológica de la naturaleza.</h1>
         </animated.div>

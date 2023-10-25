@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -61,6 +50,12 @@ body {
 .logo img {
   width: 200px;
 }
+@media(max-width:576px){
+  .logo img {
+    width: 120px;
+  }
+}
+
 .contact {
   display: flex;
   justify-content: space-around;
@@ -84,9 +79,93 @@ main h1 {
   text-align: center;
   font-size: 3.5em;
 }
+@media(max-width:576px){
+  main h1 {
+    font-size: 2.5em;
+  }
+}
 
 .growContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+@media(max-width:576px){
+  .smGrow{
+    display: none;
+  }
+}
+
+.mainGrow {
+  max-width: 600px;
+}
+@media(max-width:576px){
+  .mainGrow {
+    max-width: 400px;
+  }
+}
+
+
+/*======================================================*/
+.devices {
+  background-color: #d5d4cf;
+}
+
+/*=====================================================*/
+.ourProducts {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  width: 50%;
+}
+.product {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.prodImg img {
+  height: 250px;
+}
+@media(max-width:576px){
+  .product {
+    flex-direction: column;
+    align-items: center;
+  }
+  .prodImg {
+    display: flex;
+    justify-content: center;
+  }
+  .prodImg img {
+    height: 200px;
+  }
+  .description {
+    width: 100%;
+  }
+}
+
+/*=====================================================*/
+.aboutUs, .aboutUs div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutUs div {
+  width: 80%;
+  color: #ffffff;
+}
+
+/*======================================================*/
+.gallery {
+  width: 100%;
+  padding-top: 50px;
+}
+.imgSwiper {
+  width: 100%;
 }

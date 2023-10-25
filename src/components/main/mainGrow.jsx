@@ -22,10 +22,10 @@ export default function MainGrow({img}) {
     <div>
         
         {/* TRAIL */}
-        {trails.map(props => (
-        <animated.div style={props}>
+        {trails.map((props, index) => (
+        <animated.div style={props} key={index}>
             {/* <h1>Growcast</h1> */}
-            <img src={img} style={{'max-width':"600px"}} />
+            <img src={img} alt='mainGrow' className='mainGrow'/>
         </animated.div>
     ))}
     </div>

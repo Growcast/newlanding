@@ -8,7 +8,7 @@ import {
 
 import stylesGrow from '../../stylesGrow.css';
 
-export default function SmallGrow({img1, img2}) {
+export default function SmallGrow({img1, img2, inverse}) {
 
   const IMAGES = [
     img1,
@@ -17,15 +17,33 @@ export default function SmallGrow({img1, img2}) {
   const [activeIndex, setActiveIndex] = useState(0)
   const springApi = useSpringRef()
 
+  const polygonIzq = (inverse) => {
+    if(inverse){
+      return ('polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%)')
+    } else {
+      return ('polygon(0% 0%, 0% 100%, 0% 100%, 0% 0%)')
+    }
+  }
+
+  const polygonDer = (inverse) => {
+    if(inverse){
+      return ('polygon(0% 0%, 0% 100%, 0% 100%, 0% 0%)')
+    } else {
+      return ('polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%)')
+    }
+  }
+
+  
+
   const transitions = useTransition(activeIndex, {
     from: {
-      clipPath: 'polygon(0% 0%, 0% 100%, 0% 100%, 0% 0%)',
+      clipPath: polygonIzq(inverse),
     },
     enter: {
       clipPath: 'polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%)',
     },
     leave: {
-      clipPath: 'polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%)',
+      clipPath: polygonDer(inverse),
     },
     onRest: (_springs, _ctrl, item) => {
       if (activeIndex === item) {
