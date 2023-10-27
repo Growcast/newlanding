@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newlanding/static/css/main.1fa6231c.css",
-    "main.js": "/newlanding/static/js/main.3d5f4b6f.js",
+    "main.css": "/newlanding/static/css/main.39f49d7a.css",
+    "main.js": "/newlanding/static/js/main.d1b9df2a.js",
     "static/js/787.4c2c514d.chunk.js": "/newlanding/static/js/787.4c2c514d.chunk.js",
     "static/media/img2.jpg": "/newlanding/static/media/img2.aadf9a72505b1fd31c70.jpg",
     "static/media/img3.jpg": "/newlanding/static/media/img3.c57db91260482dd1ee25.jpg",
@@ -15,12 +15,12 @@
     "static/media/hub-perspectiva.png": "/newlanding/static/media/hub-perspectiva.ed93469644e14f832444.png",
     "static/media/Aeonik-Regular.otf": "/newlanding/static/media/Aeonik-Regular.4f36f6880f84f9c9e337.otf",
     "index.html": "/newlanding/index.html",
-    "main.1fa6231c.css.map": "/newlanding/static/css/main.1fa6231c.css.map",
-    "main.3d5f4b6f.js.map": "/newlanding/static/js/main.3d5f4b6f.js.map",
+    "main.39f49d7a.css.map": "/newlanding/static/css/main.39f49d7a.css.map",
+    "main.d1b9df2a.js.map": "/newlanding/static/js/main.d1b9df2a.js.map",
     "787.4c2c514d.chunk.js.map": "/newlanding/static/js/787.4c2c514d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fa6231c.css",
-    "static/js/main.3d5f4b6f.js"
+    "static/css/main.39f49d7a.css",
+    "static/js/main.d1b9df2a.js"
   ]
 }
