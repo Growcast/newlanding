@@ -38,32 +38,11 @@ body {
   font-family: Aeonik-Regular
 }
 
-
-.header {
-  background-color: #212D2B;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: #ffffff;
-  padding: 1rem;
-}
-.logo img {
-  width: 200px;
-}
 @media(max-width:576px){
-  .logo img {
+  .logoImg {
     width: 120px;
   }
 }
-
-.contact {
-  display: flex;
-  justify-content: space-around;
-}
-.contact p {
-  margin-right: 10px;
-}
-
 
 /*=======================================================*/
 
@@ -73,10 +52,6 @@ main {
   /* height: 600px; */
 }
 main h1 {
-  color: #ffffff;
-  margin: 0 0 0 0;
-  padding: 40px 0 0 0;
-  text-align: center;
   font-size: 3.5em;
 }
 @media(max-width:576px){
@@ -85,17 +60,6 @@ main h1 {
   }
 }
 
-.growContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-@media(max-width:576px){
-  .smGrow{
-    display: none;
-  }
-}
 
 .mainGrow {
   max-width: 600px;
@@ -106,32 +70,11 @@ main h1 {
   }
 }
 
-
-/*======================================================*/
-.devices {
-  background-color: #d5d4cf;
-}
-
 /*=====================================================*/
-.ourProducts {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-}
-
-.description {
-  width: 50%;
-}
-.product {
-  display: flex;
-  justify-content: center;
-  width: 80%;
-}
 .prodImg img {
   height: 250px;
 }
-@media(max-width:576px){
+@media(max-width:768px){
   .product {
     flex-direction: column;
     align-items: center;
@@ -146,26 +89,4 @@ main h1 {
   .description {
     width: 100%;
   }
-}
-
-/*=====================================================*/
-.aboutUs, .aboutUs div{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.aboutUs div {
-  width: 80%;
-  color: #ffffff;
-}
-
-/*======================================================*/
-.gallery {
-  width: 100%;
-  padding-top: 50px;
-}
-.imgSwiper {
-  width: 100%;
 }

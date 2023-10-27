@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
+import { Box, Flex, Text } from '@chakra-ui/react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -60,7 +60,7 @@ export default function Gallery() {
   
 
   return (
-    <div className='gallery'>
+    <Flex width={'100%'}>
       <Swiper
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -72,16 +72,16 @@ export default function Gallery() {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
-      <SwiperSlide><img src={img1} className='imgSwiper' /></SwiperSlide>
-      <SwiperSlide><img src={img2} className='imgSwiper' /></SwiperSlide>
-      <SwiperSlide><img src={img3} className='imgSwiper' /></SwiperSlide>
-      <SwiperSlide><img src={img4} className='imgSwiper' /></SwiperSlide>
-      <SwiperSlide><img src={img5} className='imgSwiper' /></SwiperSlide>
-      <SwiperSlide><img src={img6} className='imgSwiper' /></SwiperSlide>
-      <SwiperSlide><img src={img7} className='imgSwiper' /></SwiperSlide>
+      <SwiperSlide><img src={img1} width={'100%'} /></SwiperSlide>
+      <SwiperSlide><img src={img2} width={'100%'} /></SwiperSlide>
+      <SwiperSlide><img src={img3} width={'100%'} /></SwiperSlide>
+      <SwiperSlide><img src={img4} width={'100%'} /></SwiperSlide>
+      <SwiperSlide><img src={img5} width={'100%'} /></SwiperSlide>
+      <SwiperSlide><img src={img6} width={'100%'} /></SwiperSlide>
+      <SwiperSlide><img src={img7} width={'100%'} /></SwiperSlide>
       
     </Swiper>
-    </div>
+    </Flex>
   )
 }
 
