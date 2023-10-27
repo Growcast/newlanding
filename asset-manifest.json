@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/newlanding/static/css/main.1fa6231c.css",
+    "main.js": "/newlanding/static/js/main.3d5f4b6f.js",
+    "static/js/787.4c2c514d.chunk.js": "/newlanding/static/js/787.4c2c514d.chunk.js",
+    "static/media/img2.jpg": "/newlanding/static/media/img2.aadf9a72505b1fd31c70.jpg",
+    "static/media/img3.jpg": "/newlanding/static/media/img3.c57db91260482dd1ee25.jpg",
+    "static/media/img5.jpg": "/newlanding/static/media/img5.a3c5bd89096152d6245a.jpg",
+    "static/media/img1.jpg": "/newlanding/static/media/img1.7f80014f7297824cde22.jpg",
+    "static/media/img6.jpg": "/newlanding/static/media/img6.057fe3520f1faedd4830.jpg",
+    "static/media/img4.jpg": "/newlanding/static/media/img4.eb4354c1bb7dfd2ad818.jpg",
+    "static/media/img7.jpg": "/newlanding/static/media/img7.660cad58eb26971fae21.jpg",
+    "static/media/main-perspectiva.png": "/newlanding/static/media/main-perspectiva.5011b31a181a8411e3d9.png",
+    "static/media/salidas-perspectiva.png": "/newlanding/static/media/salidas-perspectiva.a56cacf4151a37de6bd4.png",
+    "static/media/hub-perspectiva.png": "/newlanding/static/media/hub-perspectiva.ed93469644e14f832444.png",
+    "static/media/Aeonik-Regular.otf": "/newlanding/static/media/Aeonik-Regular.4f36f6880f84f9c9e337.otf",
+    "index.html": "/newlanding/index.html",
+    "main.1fa6231c.css.map": "/newlanding/static/css/main.1fa6231c.css.map",
+    "main.3d5f4b6f.js.map": "/newlanding/static/js/main.3d5f4b6f.js.map",
+    "787.4c2c514d.chunk.js.map": "/newlanding/static/js/787.4c2c514d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fa6231c.css",
+    "static/js/main.3d5f4b6f.js"
+  ]
+}
